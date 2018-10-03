@@ -177,9 +177,9 @@ public class Introduccion3 {
         Diseñe un algoritmo que determine el importe bruto, el importe del descuento y el
         importe a pagar por una compra de papel bond*/
      
-        Double Cantidad, Descuento;
+        Double Cantidad, Precio, Descuento;
         JOptionPane.showMessageDialog(null, "Compra de papel bond por cientos");
-        JOptionPane.showMessageDialog(null, "Compra de papel bond por cientos");
+        Precio = Double.parseDouble(JOptionPane.showInputDialog(null, "Precio de compra"));
         Cantidad = Double.parseDouble(JOptionPane.showInputDialog(null, "Cuantos cientos desea comprar?"));
         
         
